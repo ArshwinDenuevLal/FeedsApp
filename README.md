@@ -8,7 +8,8 @@ https://docs.google.com/document/d/1XmVp2O9JVo-AITUXZERGqz6CsotqyoadI70f_mUyeYQ/
 --------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------
 
-
+<p>
+<img src="https://github.com/ArshwinDenuevLal/FeedsApp/blob/main/FeedsApp%20Screen%20Recording.gif"></p>
 
 
 [FeedsApp] --(Initializes)--> [AppCoordinator]
