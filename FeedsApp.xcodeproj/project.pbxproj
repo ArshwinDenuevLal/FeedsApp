@@ -87,6 +87,11 @@
 			path = FeedsAppUnitTests;
 			sourceTree = "<group>";
 		};
+		84EE7DD32DB9E49D00058E87 /* ReadMe */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReadMe;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,7 @@
 		84E9BD762DB1606D00E6A9C8 = {
 			isa = PBXGroup;
 			children = (
+				84EE7DD32DB9E49D00058E87 /* ReadMe */,
 				84E9BD812DB1606D00E6A9C8 /* FeedsApp */,
 				84E9BD962DB1606F00E6A9C8 /* FeedsAppTests */,
 				84E9BDA02DB1606F00E6A9C8 /* FeedsAppUITests */,
@@ -163,6 +169,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				84E9BD812DB1606D00E6A9C8 /* FeedsApp */,
+				84EE7DD32DB9E49D00058E87 /* ReadMe */,
 			);
 			name = FeedsApp;
 			packageProductDependencies = (

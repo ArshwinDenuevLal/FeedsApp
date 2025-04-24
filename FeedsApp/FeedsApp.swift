@@ -7,7 +7,6 @@
 
 
 import SwiftUI
-import SwiftData
 
 // The main application struct conforming to the `App` protocol.
 // This struct defines the app's entry point and scene configuration.
