@@ -10,6 +10,7 @@ https://docs.google.com/document/d/1XmVp2O9JVo-AITUXZERGqz6CsotqyoadI70f_mUyeYQ/
 
 
 
+
 [FeedsApp] --(Initializes)--> [AppCoordinator]
                         
                         ⬇
