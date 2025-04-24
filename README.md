@@ -67,7 +67,6 @@ https://docs.google.com/document/d/1XmVp2O9JVo-AITUXZERGqz6CsotqyoadI70f_mUyeYQ/
 
 * This is the entry point of the application.
 * It defines the `FeedsApp` struct, which conforms to the `App` protocol.
-* It sets up the `ModelContainer` for SwiftData (though SwiftData isn't the focus of the MVVM part).
 * The `body` of the `App` creates a `WindowGroup` and initializes the `FeedsView`, injecting a `FeedsViewModel`. This is where the SwiftUI part of the app starts.
 
 ##**AppCoordinator.swift:**
