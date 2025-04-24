@@ -2,7 +2,7 @@
 ##**FeedsApp - Scrollable Video/Image Feeds similar to Instagram Reels window**
 --------------------------------------------------------------------------------------------------------------------------------
 
-##**To know more have a look into. Suggestions and advices are always welcome**
+##**To know more have a look into.**
 
 https://docs.google.com/document/d/1XmVp2O9JVo-AITUXZERGqz6CsotqyoadI70f_mUyeYQ/edit?tab=t.0
 
