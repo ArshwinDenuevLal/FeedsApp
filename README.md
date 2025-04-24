@@ -13,40 +13,33 @@ https://docs.google.com/document/d/1XmVp2O9JVo-AITUXZERGqz6CsotqyoadI70f_mUyeYQ/
 <img src="https://github.com/ArshwinDenuevLal/FeedsApp/blob/main/FeedsApp%20Screen%20Recording.gif"></p>
 
 
-[FeedsApp] --(Initializes)--> [AppCoordinator]
-                        
-                        ⬇
-[AppCoordinator] --(Initializes)--> [FeedsCoordinator]
 
-                        ⬇
-[AppCoordinator] --(Starts)--> [NavigationStack]
 
-                        ⬇
-[FeedsCoordinator] --(Starts)--> [FeedsViewModel] --(Creates)--> [FeedsView]
-              
-                        ⬇
-[FeedsView] --(Loads Data)--> [FeedsViewModel.loadPosts()]
+## **Flow Chart**
 
-                        ⬇
-[FeedsViewModel.loadPosts()] --(Calls)--> [FeedsService.fetchPosts()]
-
-                        ⬇
-[FeedsCoordinator] --(Reads JSON)--> "FeedsJSON.json" --(Parses)--> [FeedsResponse]                              
-
-                        ⬇
-[FeedsService.fetchPosts()] --(Returns Data)--> [FeedsViewModel.loadPosts()]
-
-                        ⬇
-[FeedsViewModel.loadPosts()] --(Updates)--> [FeedsViewModel.posts], [FeedsViewModel.isLoading], [FeedsViewModel.errorMessage]
-
-                        ⬇
-[FeedsViewModel] --(@Published updates)--> [FeedsView]
-
-                        ⬇
-[FeedsView] --(Displays)--> [FeedsMediaPlayer] (for each feed)
-
-                        ⬇
-[FeedsMediaPlayer] --(Manages Playback)--> [VideoPlayerManager]
+[FeedsApp] --(Initializes)--> [AppCoordinator]  
+⬇  
+[AppCoordinator] --(Initializes)--> [FeedsCoordinator]  
+⬇  
+[AppCoordinator] --(Starts)--> [NavigationStack]  
+⬇  
+[FeedsCoordinator] --(Starts)--> [FeedsViewModel] --(Creates)--> [FeedsView]  
+⬇  
+[FeedsView] --(Loads Data)--> [FeedsViewModel.loadPosts()]  
+⬇  
+[FeedsViewModel.loadPosts()] --(Calls)--> [FeedsService.fetchPosts()]  
+⬇  
+[FeedsCoordinator] --(Reads JSON)--> "FeedsJSON.json" --(Parses)--> [FeedsResponse]  
+⬇  
+[FeedsService.fetchPosts()] --(Returns Data)--> [FeedsViewModel.loadPosts()]  
+⬇  
+[FeedsViewModel.loadPosts()] --(Updates)--> [FeedsViewModel.posts], [FeedsViewModel.isLoading], [FeedsViewModel.errorMessage]  
+⬇  
+[FeedsViewModel] --(@Published updates)--> [FeedsView]  
+⬇  
+[FeedsView] --(Displays)--> [FeedsMediaPlayer] (for each feed)  
+⬇  
+[FeedsMediaPlayer] --(Manages Playback)--> [VideoPlayerManager]  
 
 
 --------------------------------------------------------------------------------------------------------------------------------
