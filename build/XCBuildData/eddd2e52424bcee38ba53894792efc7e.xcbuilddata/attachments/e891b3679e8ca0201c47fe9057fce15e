@@ -1,4 +1,0 @@
-module ObjectMapper {
-header "ObjectMapper-Swift.h"
-export *
-}

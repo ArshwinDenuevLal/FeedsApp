@@ -1,6 +1,0 @@
-Target dependency graph (3 targets)
-Target 'FeedsApp' in project 'FeedsApp'
-➜ Explicit dependency on target 'ObjectMapper' in project 'ObjectMapper'
-Target 'ObjectMapper' in project 'ObjectMapper'
-➜ Explicit dependency on target 'ObjectMapper' in project 'ObjectMapper'
-Target 'ObjectMapper' in project 'ObjectMapper' (no dependencies)
